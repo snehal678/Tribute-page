@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: aquamarine;
+    min-height: 200vh;
+    border:9px solid #1d494c;
+}
+
+.content {
+    max-width: 900px;
+    margin:0 auto;
+}
+
+.top_section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+ .top_section h1 {
+    text-shadow: 5px 5px 10px blueviolet;
+    font-size: 54px;
+    font-weight: bold;
+    color:indigo;
+    text-transform: uppercase;
+ }
+ .top_section h4 {
+    font-size: 25px;
+    text-align: end;
+ }
+.image_container{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.image_container,img{
+    width: 340px;
+    height: 320px;
+}
+
+.about_section {
+    margin-top: 50px;
+}
+
+.about_section h2{
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.about_section p{
+    
+    box-shadow:blue;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.Awards_section h3{
+    margin: 50px 0;
+    font-size: 30px;
+    
+}
+
+.Awards_section ul{
+    margin-top: 20px;
+    font-size: 24px;
+    margin-left: 50px;
+   
+}
+
+.about_section p {
+    background-color: rgba(0, 0, 0, aquamarine);
+  box-shadow: 21px 21px 21px  black;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+footer p{
+    text-align: end;
+}
